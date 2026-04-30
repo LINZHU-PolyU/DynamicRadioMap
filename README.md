@@ -1,6 +1,6 @@
-# UAV Trajectory-Conditioned Dynamic Radio Map Construction via Sequence Generation Models
+# Dynamic Radio Map Construction in UAV-Assisted Communication via Video Generation
 
-This repository contains the PyTorch implementation for **"UAV Trajectory-Conditioned Dynamic Radio Map Construction via Sequence Generation Models"**. The project trains sequence generation models to construct dynamic radio maps conditioned on UAV trajectories and building layouts.
+This repository contains the PyTorch implementation for **"Dynamic Radio Map Construction in UAV-Assisted Communication via Video Generation"**. The project trains video generation models to construct dynamic radio maps conditioned on UAV trajectories and building layouts.
 
 ## Project Structure
 
@@ -35,11 +35,11 @@ Replace or update the image below with the final architecture diagram used in th
 
 ## Dynamic Radio Map Example
 
-The following GIF template can be used to present the generated dynamic radio map sequence.
+The following GIF shows an example of dynamic radio map of the proposed method and the baselines.
 
 ![Dynamic radio map example](Figures/dynamic_radio_map_sample.gif)
 
-## Dataset Template
+## Dataset and Trained Weights
 
 The dataset and trained model weights can be downloaded from: [Dataset & Weights Download Link](https://connectpolyu-my.sharepoint.com/:u:/g/personal/23045503r_connect_polyu_hk/IQA9omw_6lAwS6y-PyF897U1AW39DGc0ykQtO63cMEv2NNk?e=Lsb1Dv). (Password: `PolyU`)
 
@@ -97,10 +97,10 @@ Additional scripts are provided for interpolation metrics, efficiency comparison
 If this repository is useful for your research, please cite the corresponding paper:
 
 ```bibtex
-@article{your_citation_key,
-  title={UAV Trajectory-Conditioned Dynamic Radio Map Construction via Sequence Generation Models},
+@article{LinZhuDynamicRadioMap2026,
+  title={Dynamic Radio Map Construction in UAV-Assisted Communication via Video Generation},
   author={},
   journal={},
-  year={}
+  year={2026}
 }
 ```
