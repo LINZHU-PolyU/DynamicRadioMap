@@ -29,8 +29,6 @@ DynamicRadioMap/
 
 ## Model Architecture
 
-Replace or update the image below with the final architecture diagram used in the paper.
-
 ![Model architecture](Figures/model_architecture.png)
 
 ## Dynamic Radio Map Example
